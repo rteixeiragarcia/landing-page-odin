@@ -1,86 +1,186 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
-header, ul {
+header {
     display: flex;
-    align-items: center;
+    background-color: #0C134F;
+    height: 100px;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.img-logo img {
+    max-width: 200px;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
-    gap: 50px;
+    gap: 200px;
 }
 
 a {
     text-decoration: none;
-    color: #F7F5EB;
-    font-family: "Merriweather", serif;
-    font-weight: bold;
-}
-
-header {
-    padding: 0 300px;
-    background-color: #A0C3D2;
-    margin: -10px -10px 0 -10px;
-}
-
-.logo {
-    max-width: 150px;
-    height: auto;
-    margin: 0;
-    padding: 0;
+    color: #D4ADFC;
 }
 
 .hero-div {
     display: flex;
-    height: 400px;
-    background-color: #A0C3D2;
-    margin: 0 -10px 0 -10px;
-    padding: 0 300px 0 330px;
-    align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.hero-img > img {
-    max-width: 400px;
-    height: auto;
-    border-radius: 100%;
+    align-items: center;
+    background-color: #0C134F;
+    height: 600px;
+    padding: 50px 200px;
 }
 
 .hero-text-button {
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     height: 300px;
+}
+
+.hero-text-button h1 {
+    padding-bottom: 50px;
+    color: #D4ADFC;
+}
+
+.hero-text-button p {
+    padding-bottom: 50px;
+    color: #D4ADFC;
+}
+
+.hero-text-button button {
+    padding: 10px;
+    background-color: #D4ADFC;
+}
+
+.hero-img img {
+    max-width: 600px;
+    border-radius: 50%;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+    height: 600px;
+}
+
+.title h1 {
+    padding-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 100%
+}
+
+.pic-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    height: 400px;
+}
+
+.pic-text img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.pic-text p {
+    text-align: center;
+    max-width: 200px;
+}
+
+.quote {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #1D267D;
+}
+
+.text {
+    width: 50%
+}
+
+.text h1 {
+    color: #D4ADFC
+}
+
+.author {
+    align-self: flex-end;
+    padding-right: 25%;
+    color: #D4ADFC;
+}
+
+.subscribe {
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px 200px;
 }
 
-.hero-text-button > h1 {
-    text-align: left;
-    font-family: "Merriweather", serif;
-    color: #F7F5EB;
-    font-weight: 900;
+.subscribe-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+    width: 100%;
+    height: 200px;
+    background-color: #1D267D;
 }
 
-.hero-text-button > p {
-    text-align: left;
-    font-family: "Merriweather", serif;
-    color: #F7F5EB;
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
 }
 
-.hero-text-button > button {
+.cta h1 {
+    color: #D4ADFC;
+}
+
+.cta p {
+    color: #D4ADFC;
+}
+
+.sub-button button {
     padding: 10px;
-    background-color: #EAC7C7;
-    text-align: center;
-    font-family: "Merriweather", serif;
-    width: 150px;
-    border-radius: 50%;
-    align-self: flex-start;
+    background-color: #D4ADFC;
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1D267D;
+}
+
+footer h3 {
+    color: #D4ADFC;
 }
