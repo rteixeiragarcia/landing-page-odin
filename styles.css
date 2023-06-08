@@ -2,10 +2,11 @@
     box-sizing: border-box;
 }
 
-.header-div, ul {
+header, ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 ul {
@@ -25,9 +26,7 @@ a {
 header {
     padding: 0 30px;
     background-color: #9A208C;
-    margin: -10px;
-    border-top: 10px solid #F5C6EC;
-    border-bottom: 10px solid #F5C6EC;
+    margin: -10px -10px 0 -10px;
 }
 
 .logo {
