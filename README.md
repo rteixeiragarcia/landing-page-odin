@@ -1,2 +1,2 @@
-# landing-page-odin
+# odin-landing-page
 Design of a landing page
