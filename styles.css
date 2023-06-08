@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-div, ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFEAEA;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+}
+
+header {
+    padding: 0 30px;
+    background-color: #9A208C;
+    margin: -10px;
+    border-top: 10px solid #F5C6EC;
+    border-bottom: 10px solid #F5C6EC;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
